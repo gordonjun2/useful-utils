@@ -10,6 +10,17 @@ for dir in */ ; do
         echo "Updating repository in $dir"
         cd "$dir"
 
+        # Disable tracking permission changes for this repository
+        git config core.fileMode false
+
+        # Track remote branches
+        git branch -r | grep -v '\->' | while read remote; do
+        branch="${remote#origin/}"
+        if ! git show-ref --verify --quiet "refs/heads/$branch"; then
+            git branch --track "$branch" "$remote"
+        fi
+        done
+
         # Get the current branch
         original_branch=$(git rev-parse --abbrev-ref HEAD)
 
@@ -24,7 +35,7 @@ for dir in */ ; do
         echo
         echo "Pulling updates from all remote branches..."
         for branch in $(git branch -r | grep -v '\->'); do
-            git checkout "$branch" && git pull
+            git checkout "$branch" && git pull --autostash -q
         done
 
         # Switch back to the original branch
