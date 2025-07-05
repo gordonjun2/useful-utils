@@ -1,0 +1,8 @@
+whisperx
+openai-whisper
+numpy
+huggingface_hub
+requests
+urllib3
+google-genai
+python-dotenv
