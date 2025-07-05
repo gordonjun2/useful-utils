@@ -12,7 +12,8 @@ Key Discussion Points:
 List the main points or topics being discussed in this segment. Capture important ideas, arguments, or themes. Keep them concise but informative.
 
 Mentioned Projects / Products / Tools:
-Identify any specific projects, products, tools, companies, or technologies mentioned. Include a short description if possible or if context is given.
+Identify all specific projects, products, tools, companies, or technologies mentioned in the text. For each one, provide a short description based on the context, or from external knowledge if the context is unclear or transcription appears inaccurate.
+Some names or terms may be misspelled. Use your knowledge of known technologies, companies, and tools to infer the most likely intended references and replace or correct them as needed. Aim for accuracy and relevance.
 
 Notable Quotes or Opinions:
 Extract any statements that reflect strong opinions, insightful comments, or notable quotes. Attribute them to the speaker if speaker names or labels are present.

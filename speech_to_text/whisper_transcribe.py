@@ -5,7 +5,7 @@ from utils import chunk_audio_with_overlap, remove_overlap_text
 
 asr_model = "whisperx"  # whisperx, whisper
 device = "cpu"  # changed from cuda to cpu
-audio_file = "SISC.m4a"
+audio_file = "SISC Event 20250705 (Yuna).m4a"
 compute_type = "float32"  # changed to float32 for CPU compatibility
 chunk_size_seconds = 30  # adjust this value based on your needs
 overlap_seconds = 3  # overlap between chunks
@@ -52,11 +52,11 @@ for i, chunk in enumerate(audio_chunks):
     # Calculate and display time taken for this chunk
     chunk_time = time.time() - chunk_start_time
     total_processing_time += chunk_time
+    print(f"Chunk: {chunk_text}\n")
     print(f"\nChunk processing time: {chunk_time:.2f} seconds")
     print(
         f"Average time per chunk so far: {(total_processing_time/(i+1)):.2f} seconds"
     )
-    print(f"{chunk_text}\n")
 
     # Add to all transcriptions
     all_transcriptions.append(chunk_text)
