@@ -24,6 +24,10 @@ Analyzes discussion transcripts using AI to extract key points, mentioned projec
 
 Simple utility to convert markdown files to PDF format using Pandoc, maintaining formatting and structure.
 
+- [Google Drive Uploader](upload_to_google_drive/)
+
+Automates file uploads to Google Drive using service account authentication. Supports uploading to specific folders and handles file overwriting. Perfect for automated server deployments and backup scenarios.
+
 ## Instructions
 
 Each utility has its own directory with a dedicated README that provides detailed usage instructions and documentation.
