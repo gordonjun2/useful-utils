@@ -195,4 +195,8 @@ cython_debug/
 
 # Custom
 *.m4a
-upload_to_google_drive/service_account.json
+google_drive_tools/service_account.json
+discussion_insight_extractor/*.md
+discussion_insight_extractor/*.pdf
+.DS_Store
+speech_to_text/*.txt

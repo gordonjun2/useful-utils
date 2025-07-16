@@ -16,7 +16,8 @@ Identify all specific projects, products, tools, companies, or technologies ment
 Some names or terms may be misspelled. Use your knowledge of known technologies, companies, and tools to infer the most likely intended references and replace or correct them as needed. Aim for accuracy and relevance.
 
 Notable Quotes or Opinions:
-Extract any statements that reflect strong opinions, insightful comments, or notable quotes. Attribute them to the speaker if speaker names or labels are present.
+Extract any statements that reflect strong opinions, insightful comments, or notable quotes. Attribute them to the speaker if speaker names or labels are present. 
+If a quote appears unclear or broken due to speaking or transcription issues, refine it into a more coherent sentence while carefully preserving the original meaning and context.
 ------
 
 The transcript will be sent in batches, so treat each batch as part of a larger conversation. Do not summarize or conclude; just extract structured information for the current segment.
