@@ -28,6 +28,14 @@ Simple utility to convert markdown files to PDF format using Pandoc, maintaining
 
 Utilities for working with Google Drive using service account authentication. Includes tools for file uploads, storage monitoring, and file management. Perfect for automated server deployments and backup scenarios.
 
+- [Image Text to Image](image_text_to_image/)
+
+A utility for processing and manipulating images based on text instructions. Supports various image transformation and generation tasks.
+
+- [Horoscope and Zodiac Calculator](horoscope_and_zodiac_calculator/)
+
+A tool for calculating zodiac signs, horoscope readings, and astrological information based on date and time inputs.
+
 ## Instructions
 
 Each utility has its own directory with a dedicated README that provides detailed usage instructions and documentation.
