@@ -36,6 +36,10 @@ A utility for processing and manipulating images based on text instructions. Sup
 
 A tool for calculating zodiac signs, horoscope readings, and astrological information based on date and time inputs.
 
+- [Remove Solid Background from Video](remove_solid_background_from_video/)
+
+Converts videos to transparent GIFs by removing solid-colored backgrounds. Features advanced color matching, texture preservation, and multi-stage refinement for high-quality results. Perfect for creating animated logos, mascots, and overlay elements.
+
 ## Instructions
 
 Each utility has its own directory with a dedicated README that provides detailed usage instructions and documentation.
